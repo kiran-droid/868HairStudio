@@ -308,19 +308,24 @@
       
       <script>
       function initMap(){
-          var location = {lat:36.778,lng:-119.417};
+          var location = {lat:10.536421,lng:-61.311951};
           var map = new google.maps.Map(document.getElementById("map"),{
               
-              zoom: 4,
+              zoom: 9,
               center: location
           });
          
+         const marker =new google.maps.Marker({
+           position:{lat: 10.410094, lng: -61.471273},
+           map:map
+         })
       }
 
       </script>
-      <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBnJrHGJOHdwDS2nuTxTu8MyNn4Opj6rLI&callback=initMap"></script>
+        <script async
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA6T-l-FfUKiq_H1-jWZ-4xKyND1-Xmpjs&callback=initMap">
+</script>
       </section>    
-      
       
       
   </body>
